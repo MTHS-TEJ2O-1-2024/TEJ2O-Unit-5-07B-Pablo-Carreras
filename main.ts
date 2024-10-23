@@ -13,7 +13,7 @@ basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
 input.onButtonPressed(Button.A, function () {
-    robotbit.Servo(servoNumber1, 30)
+    robotbit.Servo(servoNumber1, 0)
     basic.clearScreen()
     basic.showString('0')
     basic.showIcon(IconNames.SmallSquare)
@@ -22,9 +22,9 @@ input.onButtonPressed(Button.A, function () {
 })
 
 input.onButtonPressed(Button.B, function () {
-    robotbit.Servo(servoNumber1, 160)
+    robotbit.Servo(servoNumber1, 175)
     basic.clearScreen()
-    basic.showString('180')
+    basic.showString('175')
     basic.showIcon(IconNames.SmallSquare)
     basic.clearScreen()
     basic.showIcon(IconNames.Happy)

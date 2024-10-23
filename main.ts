@@ -12,6 +12,7 @@ const servoNumber1 = robotbit.Servos.S1
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
+//0 degrees 
 input.onButtonPressed(Button.A, function () {
     robotbit.Servo(servoNumber1, 0)
     basic.clearScreen()
@@ -21,6 +22,7 @@ input.onButtonPressed(Button.A, function () {
     basic.showIcon(IconNames.Happy)
 })
 
+//175 deggres 
 input.onButtonPressed(Button.B, function () {
     robotbit.Servo(servoNumber1, 175)
     basic.clearScreen()
